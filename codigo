@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main ()
+{
+    int PriNum=0;
+    int SegNum=0;
+    int TerNum=0;
+    int Soma=0;
+    int Sub=0;
+    int Mult=0;
+    int Div=0;
+    
+    printf("Informar o primeiro número: ");
+    scanf("%i", &PriNum);
+    printf("Informar o segundo número: ");
+    scanf("%i", &SegNum);
+    
+    Soma= PriNum+SegNum;
+    Sub= SegNum-PriNum;
+    Mult=SegNum*PriNum;
+    Div=SegNum/PriNum;
+    
+    
+    //saída 
+    
+    printf("resultado da Soma dos números é %i ", Soma);
+    printf("resultado da Subtração dos números é %i ", Sub);
+    printf("resultado da Multiplicação dos números é %i ", Mult);
+    printf("resultado da Div dos números é %i ", Div);
+    
+    
+    return 0;
+}
